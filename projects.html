@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projects by Samuel Kwarteng Baffoe">
+    <title>Samuel Kwarteng Baffoe | Projects</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header class="header">
+    <nav class="navbar">
+        <a href="index.html" class="logo">Samuel<span>Baffoe</span></a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+            ☰
+        </button>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html" class="active">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+<section class="page-header">
+    <p>My Recent Work</p>
+    <h1>Projects</h1>
+</section>
+
+<section class="projects-section">
+
+    <div class="project-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web / Full-Stack</button>
+        <button class="filter-btn" data-filter="ai">AI / ML</button>
+    </div>
+
+    <div class="projects-grid">
+
+        <article class="project-card" data-category="web">
+            <div class="project-image project-one">
+                <span>01</span>
+            </div>
+
+            <div class="project-content">
+                <p class="project-category">Full-Stack / SaaS</p>
+                <h3>APEX HR</h3>
+
+                <p>
+                    A scalable multi-tenant Human Resource Management System for small
+                    and medium-sized organizations, built with a focus on secure tenant
+                    isolation, scalable APIs, and intelligent workforce management
+                    features including time-off management.
+                </p>
+
+                <div class="project-tags">
+                    <span>NestJS</span>
+                    <span>Next.js</span>
+                    <span>Multi-Tenant</span>
+                </div>
+
+                <a href="https://apex-hr-gray.vercel.app/" class="project-link">View Project →</a>
+            </div>
+        </article>
+
+        <article class="project-card" data-category="ai">
+            <div class="project-image project-two">
+                <span>02</span>
+            </div>
+
+            <div class="project-content">
+                <p class="project-category">AI / Machine Learning</p>
+                <h3>Edge AI Pipelines</h3>
+
+                <p>
+                    End-to-end computer vision and NLP pipelines, from data collection
+                    through model optimization and deployment for efficient inference
+                    on edge devices using the Intel OpenVINO Toolkit.
+                </p>
+
+                <div class="project-tags">
+                    <span>Python</span>
+                    <span>OpenCV</span>
+                    <span>OpenVINO</span>
+                </div>
+
+                <a href="https://github.com/SK-B99" class="project-link">View Project →</a>
+            </div>
+        </article>
+
+        <article class="project-card" data-category="web">
+            <div class="project-image project-three">
+                <span>03</span>
+            </div>
+
+            <div class="project-content">
+                <p class="project-category">Web Development</p>
+                <h3>DCLM Website</h3>
+
+                <p>
+                    A responsive website for a church community, providing a modern
+                    platform for presenting information, activities, resources, and
+                    services.
+                </p>
+
+                <div class="project-tags">
+                    <span>React</span>
+                    <span>Responsive</span>
+                    <span>CMS</span>
+                </div>
+
+                <a href="https://dclm-alpha.vercel.app/" class="project-link">View Project →</a>
+            </div>
+        </article>
+
+        <article class="project-card" data-category="web">
+            <div class="project-image project-four">
+                <span>04</span>
+            </div>
+
+            <div class="project-content">
+                <p class="project-category">Full-Stack</p>
+                <h3>Eagles Afrique</h3>
+
+                <p>
+                    A full-stack website with customer inquiry and appointment-booking
+                    workflows, letting users submit service requests and schedule
+                    consultations directly through the platform.
+                </p>
+
+                <div class="project-tags">
+                    <span>React</span>
+                    <span>REST API</span>
+                    <span>Booking</span>
+                </div>
+
+                <a href="https://my-app-2k33-two.vercel.app/" class="project-link">View Project →</a>
+            </div>
+        </article>
+
+        <article class="project-card" data-category="web">
+            <div class="project-image project-five">
+                <span>05</span>
+            </div>
+
+            <div class="project-content">
+                <p class="project-category">Web Development</p>
+                <h3>GittaHomes</h3>
+
+                <p>
+                    A responsive web platform for a Ghanaian construction materials
+                    supplier, featuring product catalog pages, customer inquiry
+                    workflows, and SEO optimization for product discovery.
+                </p>
+
+                <div class="project-tags">
+                    <span>Next.js</span>
+                    <span>SEO</span>
+                    <span>E-Commerce</span>
+                </div>
+
+                <a href="https://www.gittahomesgh.com/" class="project-link">View Project →</a>
+            </div>
+        </article>
+
+    </div>
+</section>
+
+</main>
+
+<footer class="footer">
+    <p>&copy; <span id="year"></span> Samuel Kwarteng Baffoe. All Rights Reserved.</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
